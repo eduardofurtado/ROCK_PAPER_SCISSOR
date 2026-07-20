@@ -1,24 +1,27 @@
 #Icones{
-    display: inline-block;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
 }
 
 
 .Pedra{
-    background-color: green;
+    background-color: transparent;
     color: black;
     display: inline-block;
 
 }
 
 .Tesoura{
-    background-color:darkred;
+    background-color:transparent;
     color: darkred;
     display: inline-block;
 
 }
 
 .Papel{
-    background-color:blue;
+    background-color:transparent;
     color: azure;
     display: inline-block;
 
