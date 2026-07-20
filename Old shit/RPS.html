@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPS GAME</title>
+    <script type="module" src="./RPS.js" defer></script>
+    <link rel="stylesheet" href="RPS.css">
+</head>
+<body>
+    <h1 class="name">RPS</h1>
+    <h3 class="subname">ROCK-PAPER-SCISSORS</h3>
+
+    <div id="setup">
+        <input type="text" id="userInput" placeholder="Enter name">
+        <button id="submitBtn">Começar</button>
+    </div>
+
+    <div id="Icones">
+        <button id="Tesoura" class="Tesoura">
+            <img src="./Tesoura.png" alt="Scissors">
+        </button>
+
+        <button id="Papel" class="Papel">
+            <img src="./Papel.png" alt="Papel">
+        </button>
+
+        <button id="Pedra" class="Pedra">
+            <img src="./Pedra.png" alt="Pedra">
+        </button>
+    </div>
+
+    <div id="status">
+        <p id="rodadaAtual">Rodada 1 de 5</p>
+        <p id="resultado">Escolha Tesoura, Pedra ou Papel para começar.</p>
+        <p id="placar">Jogador: 0  x  Computador: 0</p>
+        <button id="resetBtn">Reiniciar</button>
+    </div>
+
+    <h3 id="referencias">Links</h3>
+    <p>
+        <a href="https://thenounproject.com/browse/icons/term/rock-paper-scissors/" target="_blank" title="rock paper scissors Icons">Noun Project</a>
+        (CC BY 3.0)
+    </p>
+</body>
+</html>

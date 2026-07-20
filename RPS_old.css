@@ -9,21 +9,19 @@
 .Pedra{
     background-color: transparent;
     color: black;
-    display: inline-block;
 
 }
 
 .Tesoura{
     background-color:transparent;
     color: darkred;
-    display: inline-block;
+    display: block;
 
 }
 
 .Papel{
     background-color:transparent;
     color: azure;
-    display: inline-block;
 
 }
 

@@ -4,34 +4,32 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RPS GAME</title>
-    <script type="module" src="./RPS.js" defer></script>
-    <link rel="stylesheet" href="RPS.css">
+    <script type="module" src="./RPS_old.js" defer></script>
+    <link rel="stylesheet" href="RPS_old.css">
 </head>
 <body>
     <h1 class="name">RPS</h1>
     <h3 class="subname">ROCK-PAPER-SCISSORS</h3>
-    <input type="text" id="userInput" placeholder="Enter name">
-<button id="submitBtn">Submit</button>
 
 <script type="module">
-  document.getElementById('submitBtn').addEventListener('click', () => {
+  document.getElementById('Tesoura').addEventListener('click', () => {
     const name = document.getElementById('userInput').value;
     console.log(`Hello, ${name}!`);
   });
 </script>
 <div id="Icones">
-    <div class="Tesoura">
+    <button class="Tesoura" button onclick="showAlert()">
         <img src="./Tesoura.png" alt="Scissors">
+    </button>
 
-    </div>
-    <div class="Papel">
+    <button class="Papel" button onclick="showAlert()">
         <img src="./Papel.png" alt="Papel">
 
-    </div>
-    <div class="Pedra">
+    </button>
+    <button class="Pedra" button onclick="showAlert()">
         <img src="./Pedra.png" alt="Pedra">
 
-    </div>
+    </button>
 </div>
 
 
